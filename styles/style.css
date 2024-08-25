@@ -1,0 +1,143 @@
+/* font style */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
+body{
+
+  font-family: "Inter", sans-serif;
+
+}
+
+.banner-section-container{
+  max-width: 1780px;
+  height: 760px;
+  border: 2px solid red;
+  background-image:url('/images/Hero-bg.png')
+
+}
+
+.banner-title-container{
+ /* border: 2px solid green; */
+ display: flex;
+ justify-content: space-between;
+ margin-left: 140px;
+ margin-right:140px;
+ margin-top: 40px;
+ font-size: 20px;
+ color: rgb(13, 19, 33);
+font-weight: 700;
+margin-bottom:40px;
+
+}
+.btn-primary{
+  color: rgb(13, 19, 33);
+  font-family: inter;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+  box-sizing: border-box;
+  border: 1px solid rgb(13, 19, 33);
+  border-radius: 8px;
+  opacity: 0.8;
+
+
+
+
+
+
+
+
+}
+.bannner-text-container{
+  display: flex;
+  display:flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  align-items: center;
+  width: 998px;
+  height: 582px;
+  margin-top: 6px;
+  margin-left:160px ;
+  margin-right: 160px;
+  margin-bottom: 45px;
+
+  border: 2px solid green;
+
+
+}
+
+
+.front-pic img{
+  width: 240.28px;
+  height: 240px;
+}
+
+  /* shared style  */
+  
+.greating-title h1{
+  font-size: 48px;
+  font-weight: 800;
+
+}
+
+.bannner-text-containerclik-me {
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 10;
+padding: 21px 24px 21px 24px; 
+}
+
+
+.btn-primary-2{
+width: 180px;
+height: 45px;
+border-radius: 8px;
+border: none;
+background: rgb(13, 19, 33);
+font-family: inter;
+font-size: 16px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+margin: 32px 0px ;
+gap: 10;
+padding: 10px 13px 14px 10px;
+
+
+
+
+}
+
+.greating-title{
+color: rgb(13, 19, 33);
+font-family: inter;
+font-size: 38px;
+font-weight: 800;
+line-height: 68px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.title-description{
+  color: rgb(13, 19, 33);
+font-family: inter;
+font-size: 18px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+
+}
