@@ -24,6 +24,9 @@ body{
 
 }
 
+
+/* nav style */
+
 .banner-title-container {
  /* border: 2px solid green; */
  display: flex;
@@ -51,11 +54,7 @@ margin-bottom:40px;
   opacity: 0.8;
 
 
-
-
-
-
-
+/* banner text container laptop image */
 
 }
 .bannner-text-container{
@@ -70,16 +69,7 @@ margin-bottom:40px;
   margin-left:160px ;
   margin-right: 160px;
   margin-bottom: 45px;
-
-  border: 2px solid green;
-
-
-}
-
-
-.front-pic img{
-  width: 240.28px;
-  height: 240px;
+  /* border: 2px solid green; */
 }
 
   /* shared style  */
@@ -122,16 +112,9 @@ margin: 32px 0px ;
 gap: 10;
 padding: 10px 13px 14px 10px;
 
-
-
-
 }
 
-.greating-title {
-
-
-}
-
+/* 20 word paragrph description */
 .title-description{
 color: rgb(13, 19, 33);
 font-family: inter;
